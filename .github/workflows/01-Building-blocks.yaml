@@ -9,4 +9,4 @@ jobs:
         - name : npm installing
           run : |
                 echo " Hi"
-                exit 1
+                run arul/docker_image
