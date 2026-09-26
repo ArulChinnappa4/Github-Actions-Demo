@@ -1,0 +1,11 @@
+name : My First github Action
+
+on : push
+
+jobs:
+    first-task:
+      runs-on : ubuntu-latest
+      steps:
+        - name : npm installing
+          run : echo "npm install"
+
